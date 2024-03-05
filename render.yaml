@@ -1,6 +1,6 @@
 databases:
-  - name: testRender
-    databaseName: testRender
+  - name: test_render_database
+    databaseName: test_render_database
     user: mysite
     plan: free
 
