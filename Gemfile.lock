@@ -108,8 +108,9 @@ GEM
     execjs (2.9.1)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    i18n (1.14.1)
+    i18n (1.14.3)
       concurrent-ruby (~> 1.0)
+      racc (~> 1.7)
     importmap-rails (2.0.1)
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
@@ -147,9 +148,6 @@ GEM
     nio4r (2.7.0)
     nokogiri (1.16.2-x64-mingw-ucrt)
       racc (~> 1.4)
-    nokogiri (1.16.2-x86_64-linux)
-      racc (~> 1.4)
-    pg (1.5.6)
     pg (1.5.6-x64-mingw-ucrt)
     psych (5.1.2)
       stringio
@@ -258,7 +256,6 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap
